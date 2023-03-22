@@ -1,4 +1,4 @@
-# exe-fyp
+# Final Year Project
 ```
 git clone https://github.com/ultralytics/ultralytics.git
 ```
@@ -14,6 +14,11 @@ pip install -r requirements.txt
 pip install -e '.[dev]'
 ```
 
+# Parent Directory
+```
+cd ..
+```
+# Install PyInstaller
 ```
 pip install pyinstaller
 ```
@@ -22,8 +27,8 @@ pip install pyinstaller
 ```
 pyinstaller main.spec
 ```
-
-# Rebuild from scratch
+OR
+# Build from scratch
 ```
 pyinstaller main.py --onefile
 ```
