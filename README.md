@@ -18,12 +18,12 @@ pip install -e '.[dev]'
 pip install pyinstaller
 ```
 
-#Rebuild from my files
+# Rebuild from my files
 ```
 pyinstaller main.spec
 ```
 
-#Rebuild from scratch
+# Rebuild from scratch
 ```
 pyinstaller main.py --onefile
 ```
